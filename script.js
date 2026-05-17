@@ -29,7 +29,7 @@ backToTopBtn.addEventListener("click", () => {
 });
 
 resumeBtn.addEventListener("click", () => {
-    window.open("final shubham resume.pdf", "_blank");
+    window.open("shubhamresume.pdf", "_blank");
 });
 
 githubBtn.addEventListener("click", () => {
