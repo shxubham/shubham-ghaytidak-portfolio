@@ -1,6 +1,6 @@
 // Typing animation in the hero section.
 const typed = new Typed("#element", {
-    strings: ["Java Full Stack Developer", "Spring Boot Developer", "React Developer"],
+    strings: ["Java Full Stack Developer", "Spring Boot Developer"],
     loop: true,
     typeSpeed: 50,
 });
