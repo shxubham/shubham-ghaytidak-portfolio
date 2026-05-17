@@ -9,7 +9,6 @@ const mobileMenuBtn = document.getElementById("mobileMenuBtn");
 const navLinks = document.getElementById("navLinks");
 const themeToggleBtn = document.getElementById("themeToggleBtn");
 const backToTopBtn = document.getElementById("backToTopBtn");
-const resumeBtn = document.getElementById("resumeBtn");
 const githubBtn = document.getElementById("githubBtn");
 
 // Mobile navigation.
@@ -26,10 +25,6 @@ document.querySelectorAll(".nav-links a").forEach(link => {
 // Scroll and external actions.
 backToTopBtn.addEventListener("click", () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
-});
-
-resumeBtn.addEventListener("click", () => {
-    window.open("shubhamresume.pdf", "_blank");
 });
 
 githubBtn.addEventListener("click", () => {

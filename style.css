@@ -193,6 +193,7 @@ main hr {
 }
 
 .primary-btn {
+    display: inline-block;
     padding: 12px 24px;
     border: 0;
     border-radius: 8px;
@@ -200,6 +201,7 @@ main hr {
     color: var(--button-text);
     cursor: pointer;
     font-size: 18px;
+    text-decoration: none;
     box-shadow: 0 12px 28px rgba(6, 182, 212, 0.18);
     transition: transform 0.3s, box-shadow 0.3s;
 }
