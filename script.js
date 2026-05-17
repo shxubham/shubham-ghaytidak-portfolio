@@ -1,6 +1,6 @@
 // Typing animation in the hero section.
 const typed = new Typed("#element", {
-    strings: ["Web Developer", "Java Developer", "Freelancer"],
+    strings: ["Java Full Stack Developer", "Spring Boot Developer", "React Developer"],
     loop: true,
     typeSpeed: 50,
 });
@@ -33,10 +33,10 @@ githubBtn.addEventListener("click", () => {
 
 // Theme and page animations.
 themeToggleBtn.addEventListener("click", () => {
-    const isLightTheme = document.body.classList.toggle("light-theme");
+    const isDarkTheme = document.body.classList.toggle("dark-theme");
 
-    themeToggleBtn.innerHTML = isLightTheme ? "&#9728;" : "&#127769;";
-    themeToggleBtn.setAttribute("aria-label", isLightTheme ? "Switch to dark theme" : "Switch to light theme");
+    themeToggleBtn.innerHTML = isDarkTheme ? "&#9728;" : "&#127769;";
+    themeToggleBtn.setAttribute("aria-label", isDarkTheme ? "Switch to light theme" : "Switch to dark theme");
 });
 
 AOS.init({
